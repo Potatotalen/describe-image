@@ -11,7 +11,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<your-username>/describe-image.git ~/.claude/skills/describe-image
+git clone https://github.com/Potatotalen/describe-image.git ~/.claude/skills/describe-image
 ```
 
 > Claude Code 的 skill 系统从 `~/.claude/skills/` 自动发现技能，必须 clone 到此路径。
