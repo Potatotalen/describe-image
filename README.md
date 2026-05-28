@@ -1,4 +1,4 @@
-# describe-image — Claude Code 图片分析技能
+# describe-image — Claude Code + DeepSeek V4 图片描述分析 skill
 
 调用阿里云百炼 qwen-vl-max 视觉模型分析图片内容，返回中文描述。
 
@@ -18,11 +18,10 @@ git clone https://github.com/Potatotalen/describe-image.git ~/.claude/skills/des
 
 ## 配置 API Key
 
-```bash
-export DASHSCOPE_API_KEY="sk-your-key-here"
-```
-
-写入 `~/.bashrc` 或 `~/.zshrc` 以持久化。
+1. Win+R → 输入 `sysdm.cpl` → 确定
+2. 高级 → 环境变量
+3. 新建用户变量，变量名 `DASHSCOPE_API_KEY`，值填你的阿里云百炼 API Key
+4. 确定后**重启 VSCode** 生效
 
 ## 使用
 
